@@ -1,4 +1,4 @@
-###### Welcome to the "Web Server Creator" a simple project that creates a locally hosted web server. 
+# Welcome to the "Web Server Creator" a simple project that creates a locally hosted web server. 
 
 These instructions are for macOS, but there isn't much to using this script.
 Open Finder, and the location you downloaded the "Web Server Creator" folder. 
@@ -23,15 +23,15 @@ The funny shit
 I added a simple black background, with white text. It took like 15 seconds, and for what I remember no one uses
 <style> [   ] </style> anymore, you do that in the style.css. 
 
-###### Why?
+# Why?
 Idk dude, people make weird things when they're ~~high~~ tired. I ask you: why not?
 
 
 
-###### The funny shit
+# The funny shit
 I added a simple black background, with white text. It took like 15 seconds, and for what I remember no one uses
 <style> [   ] </style> anymore, you do that in the style.css. 
 
 
-###### Why?
+# Why?
 Idk dude, people make weird things when they're ~~high~~ tired. I ask you: why not?
