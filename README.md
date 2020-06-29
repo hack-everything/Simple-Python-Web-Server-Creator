@@ -22,8 +22,8 @@ when it asks.
 
 
 # The funny shit
-I added a simple black background, with white text. It took like 15 seconds, and for what I remember no one uses
-<style> [   ] </style> anymore, you do that in the style.css. 
+I added a simple black background, with white text. It took like 15 seconds, and for what I remember no one uses <style> [   ] </style> anymore, 
+you do that in the style.css. 
 
 
 
