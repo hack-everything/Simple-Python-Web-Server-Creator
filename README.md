@@ -5,7 +5,7 @@ Open Finder, and the location you downloaded the "Web Server Creator" folder.
 Right click the folder, and select 'New Terminal Tab At Folder'
 When the Terminal window opens, it should look something similar to this: 
 
-![Terminal Example](https://github.com/hack-everything/Simple-Python-Web-Serfver-Creator/blob/master/Terminal%20-%20Imgur.png)
+![Terminal Example](https://doggo.ninja/jL4qha.png)
 
 Type in ````Python ./web-server.py```` and hit enter! 
 *If that doesn't work, try opening it in a python IDE like PyCharm.*
