@@ -16,12 +16,15 @@ It was just to make it look cool, and a way to make it seems like it is doing mo
 than it actually is. 
 
 Everything else, such as where to view the index.html/server.html, 
-the script "generates" the links, but it just prints them. If you want them, make sure to say Yes/y 
+the script "generates" the links, but it just prints them. If you want them, make sure to say yes/y 
 when it asks.
 
+#The funny shit
 I added a simple black background, with white text. It took like 15 seconds, and for what I remember no one uses
 <style> [   ] </style> anymore, you do that in the style.css. 
 
+#Why?
+Idk dude, people make weird things when they're ~~high~~ tired. I ask you: why not?
 
 
 
