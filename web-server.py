@@ -63,7 +63,7 @@ if input in yesChoice:
     print("Generating...")
     time.sleep(0.100)
     print('Access The Web Server Here:')
-    print('http://localhost:8080/server.html')
+    print('http://127.0.0.1:4200/server.html')
 
     time.sleep(0.100)
     print("Generating Index Link...")
@@ -73,7 +73,7 @@ if input in yesChoice:
     print("Generating Index Link...")
     time.sleep(0.100)
     print('Access The Web Server Index Here:')
-    print('http://localhost:8080/index.html')
+    print('http://127.0.0.1:4200')
 
 elif input in noChoice:
     print('Okay, Thanks For Using Web Server Creator!_')
@@ -90,12 +90,11 @@ class Serv(BaseHTTPRequestHandler):
             file_to_open = open(self.path[1:]).read()
             self.send_response(200)
         except:
-            file_to_open = "File not found"
+            file_to_open = "Listen, did you really just try to open a non-existent file, you idiot?"
             self.send_response(404)
         self.end_headers()
         self.wfile.write(bytes(file_to_open, 'utf-8'))
 
 
-httpd = HTTPServer(('localhost', 8080), Serv)
+httpd = HTTPServer(('127.0.0.1', 4200), Serv)
 httpd.serve_forever()
-
