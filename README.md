@@ -11,7 +11,7 @@ When the Terminal window opens, it should look something similar to this:
 ![Terminal Example](https://doggo.ninja/jL4qha.png)
 
 Type in ````Python ./web-server.py```` and hit enter! 
-*If that doesn't work, try opening it in a python IDE like PyCharm.*
+*If that doesn't work, try opening it in a Python IDE like PyCharm, and running it.*
 
 Once you hit 'Enter' you should be able to see it start "Creating" and "Generating" things,
 it's total BS, if you remove the print and time.sleep commands you'd have one running in milliseconds.
