@@ -1,5 +1,8 @@
 # Welcome to the "Web Server Creator" a simple project that creates a locally hosted web server. 
 
+## This code is not a reflection of the code I write professionally, I just write shit code if its 
+## a small simple project. It's the simiplest way, and I did it in a few minutes
+
 These instructions are for macOS, but there isn't much to using this script.
 Open Finder, and the location you downloaded the "Web Server Creator" folder. 
 Right click the folder, and select 'New Terminal Tab At Folder'
