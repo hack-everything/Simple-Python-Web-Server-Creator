@@ -24,9 +24,8 @@ when it asks.
 
 
 # The funny shit
-I added a simple black background, with white text. It took like 15 seconds, and for what I remember no one uses <style> [   ] </style> anymore, 
-you do that in the style.css but WHO GIVES A SH**. < *Note, I do but I'm also not bothered to do a style sheet also, in a few seconds*
-
+So now it sort of uses a style sheet? The server.html and index.html now look wayy better with a font, 
+and other stuff! Still a black background, white text.
 
 
 # Why?
