@@ -29,4 +29,4 @@ and other stuff! Still a black background, white text.
 
 
 # Why?
-Idk dude, people make weird things when they're ~~high~~ tired. I ask you: why not?
+I don't know man, people make weird things when they're ~~high~~ tired. I ask you: why not?
