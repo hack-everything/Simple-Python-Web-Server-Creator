@@ -25,7 +25,7 @@ if input in yesChoice:
         time.sleep(0.05)
     print(" ")
     print('Access The Web Server Here:')
-    print('http://192.168.1.7:4200/server.html')
+    print('http://127.0.0.1:4200/server.html')
     time.sleep(3)
 
     loop = tqdm(total=100, position=0, leave=False)
@@ -37,7 +37,7 @@ if input in yesChoice:
 
     print(" ")
     print('Access The Web Server Index Here:')
-    print('http://192.168.1.7:4200')
+    print('http://127.0.0.1:4200')
 
 elif input in noChoice:
     print('Okay, Thanks For Using Web Server Creator!_')
@@ -60,6 +60,6 @@ class Serv(BaseHTTPRequestHandler):
         self.wfile.write(bytes(file_to_open, 'utf-8'))
 
 
-httpd = HTTPServer(('192.168.1.7', 4200), Serv)
+httpd = HTTPServer(('127.0.0.1', 4200), Serv)
 httpd.serve_forever()
 
