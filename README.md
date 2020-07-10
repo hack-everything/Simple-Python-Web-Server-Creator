@@ -9,7 +9,7 @@ When the Terminal window opens, it should look something similar to this:
 
 ![Terminal Example](https://doggo.ninja/jL4qha.png)
 
-Type in ```pip install tqdm``` hit 'Enter'. Then, 
+Type in ```pip install tqdm``` and hit 'Enter'. Then, 
 Type in ````python ./web-server.py```` and hit enter! 
 *If that doesn't work, try opening it in a Python IDE like PyCharm, and running it.*
 
