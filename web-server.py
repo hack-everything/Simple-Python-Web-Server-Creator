@@ -1,79 +1,43 @@
 
 import time
 from http.server import HTTPServer, BaseHTTPRequestHandler
+from tqdm import tqdm
+import time
 
-print('Creating..........')
-time.sleep(0.100)
-print('Creating..........')
-time.sleep(0.100)
-print('Creating..........')
-time.sleep(0.100)
-print('Creating..........')
-time.sleep(0.100)
-print('Creating..........')
-time.sleep(0.100)
-print('Creating..........')
-time.sleep(0.100)
-print('Creating..........')
-time.sleep(0.100)
-print('Creating..........')
-time.sleep(0.100)
-print('Creating..........')
-time.sleep(0.100)
-print('Creating..........')
-time.sleep(0.100)
-print('Creating..........')
-time.sleep(0.100)
-print('Creating..........')
-time.sleep(0.100)
-print('Creating..........')
-time.sleep(0.100)
-print('Creating..........')
-time.sleep(0.300)
-print('Initializing...')
-time.sleep(0.100)
-print('Initializing...')
-time.sleep(0.100)
-print('Initializing...')
-time.sleep(0.100)
-print('Initializing...')
-time.sleep(0.100)
-print('Initializing...')
-time.sleep(2)
+loop = tqdm(total = 100, position=0, leave=False)
+for k in range(100):
+    loop.set_description("Creating Your Web Server".format(k))
+    loop.update(1)
+    time.sleep(0.05)
 
+
+print(" ")
 
 yesChoice = ['yes', 'y']
 noChoice = ['no', 'n']
 
 input = input('Would you like the link to your web server? >_ ').lower()
 if input in yesChoice:
-    time.sleep(0.100)
-    print("Generating...")
-    time.sleep(0.100)
-    time.sleep(0.100)
-    print("Generating...")
-    time.sleep(0.100)
-    time.sleep(0.100)
-    print("Generating...")
-    time.sleep(0.100)
-    time.sleep(0.100)
-    print("Generating...")
-    time.sleep(0.100)
-    time.sleep(0.100)
-    print("Generating...")
-    time.sleep(0.100)
+    loop = tqdm(total=100, position=0, leave=False)
+    for k in range(100):
+        loop.set_description("Generating Your Link".format(k))
+        loop.update(1)
+        time.sleep(0.05)
+    print(" ")
     print('Access The Web Server Here:')
-    print('http://127.0.0.1:4200/server.html')
+    print('http://192.168.1.7:4200/server.html')
+    time.sleep(3)
 
-    time.sleep(0.100)
-    print("Generating Index Link...")
-    time.sleep(0.100)
-    print("Generating Index Link...")
-    time.sleep(0.100)
-    print("Generating Index Link...")
-    time.sleep(0.100)
+    loop = tqdm(total=100, position=0, leave=False)
+    for k in range(100):
+        loop.set_description("Generating Your Link".format(k))
+        loop.update(1)
+        time.sleep(0.05)
+
+
+    print(" ")
     print('Access The Web Server Index Here:')
-    print('http://127.0.0.1:4200')
+    print('http://192.168.1.7:4200')
 
 elif input in noChoice:
     print('Okay, Thanks For Using Web Server Creator!_')
@@ -96,5 +60,6 @@ class Serv(BaseHTTPRequestHandler):
         self.wfile.write(bytes(file_to_open, 'utf-8'))
 
 
-httpd = HTTPServer(('127.0.0.1', 4200), Serv)
+httpd = HTTPServer(('192.168.1.7', 4200), Serv)
 httpd.serve_forever()
+
