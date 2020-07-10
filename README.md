@@ -9,11 +9,12 @@ When the Terminal window opens, it should look something similar to this:
 
 ![Terminal Example](https://doggo.ninja/jL4qha.png)
 
-Type in ````Python ./web-server.py```` and hit enter! 
+Type in ```pip install tqdm``` hit 'Enter'. Then, 
+Type in ````python ./web-server.py```` and hit enter! 
 *If that doesn't work, try opening it in a Python IDE like PyCharm, and running it.*
 
 Once you hit 'Enter' you should be able to see it start "Creating" and "Generating" things,
-it's total BS, if you remove the print and time.sleep commands you'd have one running in milliseconds.
+it's total BS, if you remove the TQDM loading bar code you'd have one running in milliseconds.
 It was just to make it look cool, and a way to make it seems like it is doing more 
 than it actually is. 
 
