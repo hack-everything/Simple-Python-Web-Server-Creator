@@ -63,3 +63,20 @@ class Serv(BaseHTTPRequestHandler):
 httpd = HTTPServer(('127.0.0.1', 4200), Serv)
 httpd.serve_forever()
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+time.sleep(1000000)
+print('Your Server Has Been Hacked')
+print('All of your data is ours')
+print('Singed, The Hamsters')
